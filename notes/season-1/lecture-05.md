@@ -14,7 +14,9 @@ So, in summary, **along with GEC, a global object (window) and a this variable a
 
 * If we create any variable in the global scope, then the variables get attached to the global object.
   
-* 'this' variable is created along with creation of GEC or creation of   functional execution context as well.     
+* 'this' variable is created along with creation of GEC or creation of   functional execution context as well.
+  
+* Anything which is not inside a function - **Global space**.
 
 eg:
 ```js
