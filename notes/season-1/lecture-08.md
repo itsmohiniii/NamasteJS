@@ -4,6 +4,7 @@
     ```js
     console.log(a); // ReferenceError: Cannot access 'a' before initialization
     console.log(b); // prints undefined as expected
+    console.log(x); // ReferenceError: x is not defined
     let a = 10;
     console.log(a); // 10
     var b = 15;
