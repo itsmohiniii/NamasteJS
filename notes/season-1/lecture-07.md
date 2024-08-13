@@ -73,6 +73,8 @@ console.log(b); // Error, Not Defined
   
 * So, **Lexical Environment** = local memory + lexical env of its parent. Hence, Lexical Environement is the local memory along with the lexical environment of its parent
 
+* Lexical Parent of a function : it is where that function sits inside the code.
+
 * **Lexical**: In hierarchy, In order
 
 * Whenever an Execution Context is created, a Lexical environment(LE) is also created and is referenced in the local Execution Context(in memory space).
