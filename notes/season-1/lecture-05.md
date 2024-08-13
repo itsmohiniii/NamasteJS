@@ -11,12 +11,12 @@ So, in summary, **along with GEC, a global object (window) and a this variable a
   JS engine has the responsibility of creating this global object.     
  
 * In different engines, the name of global object changes. Window in browsers, but in nodeJS it is called something else. At global level, this === window
-
-* If we create any variable in the global scope, then the variables get attached to the global object.
   
 * 'this' variable is created along with creation of GEC or creation of   functional execution context as well.
   
-* Anything which is not inside a function - **Global space**.
+* Any code in JS which is not inside a function - **Global space**.
+
+* If we create any variable in the global scope, then the variables get attached to the global object.
 
 eg:
 ```js
