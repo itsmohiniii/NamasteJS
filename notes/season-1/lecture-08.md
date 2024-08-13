@@ -22,6 +22,7 @@
 * **Reference Error** are thrown when variables are in temporal dead zone.
 
 * **Syntax Error** doesn't even let us run single line of code.
+  SyntaxError: Identifier 'a' has already been declared
 
     * ```js
         let a = 10;
