@@ -17,7 +17,9 @@ console.log(x); // 25
 console.log(a); // Uncaught ReferenceError: a is not defined
 ```
 
-* JS is a **loosely typed / weakly typed** language. It doesn't attach variables to any datatype. We can say *var a = 5*, and then change the value to boolean *a = true* or string *a = 'hello'* later on. 
+* JS is a **loosely typed / weakly typed** language. It doesn't attach variables to any specific datatype. We can say *var a = 5*, and then change the value to boolean *a = true* or string *a = 'hello'* later on.
+JS is flexible and is not a strictly-typed language like C++.
+
 * **Never** assign *undefined* to a variable manually. Let it happen on it's own accord.
 
 <hr>
