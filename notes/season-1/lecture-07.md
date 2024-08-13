@@ -66,6 +66,8 @@ console.log(b); // Error, Not Defined
     ```
     ![Lexical Scope Explaination](/assets/lexical.jpg "Lexical Scope")
     ![Lexical Scope Explaination](/assets/lexical2.jpg "Lexical Scope")
+    ![image](https://github.com/user-attachments/assets/c98e326e-92ed-4419-9207-1cdf74214af1)
+
 
 <br>
 
