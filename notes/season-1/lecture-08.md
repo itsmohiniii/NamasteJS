@@ -31,6 +31,9 @@
         var a = 100; // this code also rejected upfront as SyntaxError. (can't use same name in same scope)
         ------------------
         var a = 10;
+        let a = 100; // this code also rejected upfront as SyntaxError. (can't use same name in same scope)
+        ------------------
+        var a = 10;
         var a = 100; // this works fine. No error. Redeclaration is possible in var.
         ```
 
