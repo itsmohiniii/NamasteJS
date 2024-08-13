@@ -69,7 +69,7 @@ console.log(b); // Error, Not Defined
 
 <br>
 
-* Scope of variable : Where can I access this variable.
+* **Scope** of variable : Where can I access this variable.
   
 * So, **Lexical Environment** = local memory + lexical env of its parent. Hence, Lexical Environement is the local memory along with the lexical environment of its parent
 
@@ -77,7 +77,7 @@ console.log(b); // Error, Not Defined
 
 * Whenever an Execution Context is created, a Lexical environment(LE) is also created and is referenced in the local Execution Context(in memory space).
 
-* The process of going one by one to parent and checking for values is called scope chain or Lexcial environment chain.
+* The process of going one by one to parent and checking for values is called **scope chain** or Lexcial environment chain.
 
 * ```js
   function a() {
