@@ -1,7 +1,7 @@
 # Episode 9 : Block Scope & Shadowing in JS
 
 What is a **Block**?
-* Block aka *compound statement* is used to group JS statements together into 1 group. We group them within {...}
+* Block aka *compound statement* is used to group multiple JS statements together into 1 group. We group them within {...}
     ```js
     {
         var a = 10;
