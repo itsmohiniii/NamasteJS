@@ -1,5 +1,7 @@
 # Episode 8 : let & const in JS, Temporal Dead Zone
 
+* Let and const were introduced in ES6.
+  
 * let and const declarations are hoisted. But its different from **var**
     ```js
     console.log(a); // ReferenceError: Cannot access 'a' before initialization
