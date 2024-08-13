@@ -24,19 +24,19 @@
 * **Syntax Error** doesn't even let us run single line of code.     
   SyntaxError: Identifier 'a' has already been declared
 
-    * ```js
-        let a = 10;
-        let a = 100;  //this code is rejected upfront as SyntaxError. (duplicate declaration)
-        ------------------
-        let a = 10;
-        var a = 100; // this code also rejected upfront as SyntaxError. (can't use same name in same scope)
-        ------------------
-        var a = 10;
-        let a = 100; // this code also rejected upfront as SyntaxError. (can't use same name in same scope)
-        ------------------
-        var a = 10;
-        var a = 100; // this works fine. No error. Redeclaration is possible in var.
-        ```
+    ```js
+    let a = 10;
+    let a = 100;  //this code is rejected upfront as SyntaxError. (duplicate declaration)
+    ------------------
+    let a = 10;
+    var a = 100; // this code also rejected upfront as SyntaxError. (can't use same name in same scope)
+    ------------------
+    var a = 10;
+    let a = 100; // this code also rejected upfront as SyntaxError. (can't use same name in same scope)
+    ------------------
+    var a = 10;
+    var a = 100; // this works fine. No error. Redeclaration is possible in var.
+    ```
 
 * **Let** is a stricter version of **var**. Now, **const** is even more stricter than **let**.
     ```js
