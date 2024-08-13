@@ -29,6 +29,9 @@
         ------------------
         let a = 10;
         var a = 100; // this code also rejected upfront as SyntaxError. (can't use same name in same scope)
+        ------------------
+        var a = 10;
+        var a = 100; // this works fine. No error. Redeclaration is possible in var.
         ```
 
 * **Let** is a stricter version of **var**. Now, **const** is even more stricter than **let**.
