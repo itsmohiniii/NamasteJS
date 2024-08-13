@@ -69,6 +69,8 @@ console.log(b); // Error, Not Defined
 
 <br>
 
+* Scope of variable : Where can I access this variable.
+  
 * So, **Lexical Environment** = local memory + lexical env of its parent. Hence, Lexical Environement is the local memory along with the lexical environment of its parent
 
 * **Lexical**: In hierarchy, In order
