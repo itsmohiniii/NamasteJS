@@ -46,7 +46,7 @@
     ------------------
     const b;
     b = 10;
-    console.log(b); // SyntaxError: Missing initializer in const declaration. (This type of declaration won't work with const. const b = 10 only will work)
+    console.log(b); // this code also rejected upfront as SyntaxError. SyntaxError: Missing initializer in const declaration. (This type of declaration won't work with const. const b = 10 only will work)
     ------------------
     const b = 100;
     b = 1000; //this gives us TypeError: Assignment to constant variable. 
@@ -67,7 +67,7 @@
         * This Error signifies that we haven't initialized or assigned value to a const declaration.
 
     * Uncaught TypeError: Assignment to constant variable
-        * This Error signifies that we are reassigning to a const variable.
+        * This Error signifies that we are reassigning to a const type variable.
 
 ### SOME GOOD PRACTICES:
 
