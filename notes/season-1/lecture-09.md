@@ -11,7 +11,7 @@ What is a **Block**?
     } 
     ```
     
-* Block Scope: what all variables and functions we can access inside this block is known as Block Scope.
+* Block Scope: what all variables and functions we can access inside this block is known as scope of the block.
     
     ```js
     {
