@@ -10,7 +10,9 @@ What is a **Block**?
     {
     } 
     ```
-  
+    
+* Block Scope: what all variables and functions we can access inside this block is known as Block Scope.
+    
     ```js
     {
         var a = 10;
@@ -21,7 +23,6 @@ What is a **Block**?
     }
     ```
 
-* Block Scope: what all variables and functions we can access inside this block is known as Block Scope.
 * Block Scope and its accessibility example
     ```js
     {
