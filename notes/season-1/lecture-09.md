@@ -2,7 +2,7 @@
 
 What is a **Block**?
 * Block aka *compound statement* is used to group multiple JS statements together into 1 group. We group them within {...}       
-  Block wraps together multiple statements so that we can use it in a place where JS expects one statement.
+  Block wraps together multiple statements so that we can use it in a place where JS expects one statement.      
   Eg, Blocks are used in if statement, for loop, while loop etc.
 
     ```js
