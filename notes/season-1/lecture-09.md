@@ -62,11 +62,11 @@ What is **Shadowing**?
 
 * Let's observe the behaviour in case of let and const and understand it's reason.
     ```js
-    let b = 100;
+    let b = 100; //stored in Script Memory space
     {
-        var a = 10;
-        let b = 20;
-        const c = 30;
+        var a = 10; //stored in Global Memory space
+        let b = 20; //stored in Block Memory space
+        const c = 30; //stored in Block Memory space
         console.log(b); // 20
     }
     console.log(b); // 100, Both b's are in separate spaces (one in Block(20) and one in Script(another arbitrary mem space)(100)). Same is also true for *const* declarations.
