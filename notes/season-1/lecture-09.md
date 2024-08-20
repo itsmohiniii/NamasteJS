@@ -120,9 +120,9 @@ What is **Illegal Shadowing**?
     ```
     
     ```js
-    let a = 20;
+    var a = 20;
     {
-        var a = 20; // Valid (we can shadow var using let)
+        let a = 20; // Valid (we can shadow var using let)
     }
     ```
     
