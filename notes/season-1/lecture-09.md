@@ -119,13 +119,20 @@ What is **Illegal Shadowing**?
     }
     ```
     
+    ```js
+    let a = 20;
+    {
+        var a = 20; // Valid (we can shadow var using let)
+    }
+    ```
+    
     * We cannot shadow let with var. But it is **valid** to shadow a let using a let. However, we can shadow var with let.
     * All scope rules that work in function are same in arrow functions too.
     * Since var is function scoped, it is not a problem with the code below.
         ```js
         let a = 20;
         function x() {
-            var a = 20; // Valid (we can shadow var with let)
+            var a = 20;
         }
         ```
   * var is function scoped. (Global, Local)
