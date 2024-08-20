@@ -103,6 +103,7 @@ What is **Illegal Shadowing**?
         var a = 20; //Illegal shadowing (We cannot shadow let with var)
     }
     // Uncaught SyntaxError: Identifier 'a' has already been declared
+    // It throws an error because in a particular scope, let can't be redeclared.
     ```
   
     ```js
