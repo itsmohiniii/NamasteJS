@@ -76,9 +76,9 @@ What is **Shadowing**?
 
 * Same logic is true even for **functions**
     ```js
-    const c = 100;
+    const c = 100; //stored in Script Memory space
     function x() {
-        const c = 10;
+        const c = 10; //stored in Local Memory space
         console.log(c); // 10
     }
     x();
