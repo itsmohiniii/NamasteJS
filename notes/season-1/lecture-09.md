@@ -29,15 +29,19 @@ What is a **Block**?
         var a = 10;
         let b = 20;
         const c = 30;
+        console.log(a); // 10
+        console.log(b); // 20
+        console.log(c); // 30
     }
     console.log(a); // 10
     console.log(b); // Uncaught ReferenceError: b is not defined
+    console.log(c); // Uncaught ReferenceError: c is not defined
     ```
     * Reason?
         * In the BLOCK SCOPE; we get b and c inside it initialized as *undefined* as a part of hoisting (in a seperate memory space called **block**)
         * While, a is stored inside a GLOBAL scope. 
 
-        * Thus we say, *let* and *const* are BLOCK SCOPED. They are stored in a separate mem space which is reserved for this block. Also, they can't be accessed outside this block. But var a can be accessed anywhere as it is in global scope. Thus, we can't access them outside the Block.
+        * Thus we say, *let* and *const* are BLOCK SCOPED. They are stored in a separate memory space which is reserved for this block. Also, they can't be accessed outside this block. But var 'a' can be accessed anywhere as it is in global scope. Thus, we can't access them outside the Block.
 
 What is **Shadowing**?
 
