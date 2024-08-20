@@ -113,6 +113,8 @@ What is **Illegal Shadowing**?
             var a = 20;
         }
         ```
+  * var is function scoped. (Global, Local)
+  * let and const are block-scoped. (Script, Block, Local)
 
 
 
