@@ -166,7 +166,7 @@ What is **Illegal Shadowing**?
     ```
     
 
-
+Book recommendation for JS: You Don't Know JS by Kyle Simpson
 
 
 <hr>
