@@ -48,7 +48,7 @@ What is **Shadowing**?
 * ```js
     var a = 100; //stored in Global Memory space
     {
-        var a = 10; // same name as global var //stored in Global Memory space
+        var a = 10; // same name as global var //stored in Global Memory space (updated the value)
         let b = 20; //stored in Block Memory space
         const c = 30; //stored in Block Memory space
         console.log(a); // 10
