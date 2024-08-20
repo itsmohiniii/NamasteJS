@@ -85,6 +85,16 @@ What is **Shadowing**?
     console.log(c); // 100
     ```
 
+    ```js
+    var c = 100; //stored in Global Memory space
+    function x() {
+        var c = 10; //stored in Local Memory space
+        console.log(c); // 10
+    }
+    x();
+    console.log(c); // 100
+    ```
+
 What is **Illegal Shadowing**?
 
 * ```js
