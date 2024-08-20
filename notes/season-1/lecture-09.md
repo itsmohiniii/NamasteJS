@@ -138,6 +138,33 @@ What is **Illegal Shadowing**?
         ```
   * var is function scoped. (Global, Local)
   * let and const are block-scoped. (Script, Block, Local)
+ 
+  * Block scope also follows lexical scope and lexical scope chain pattern.
+    Lexical scope works the same way inside the block also.
+     
+    ```js
+    const a = 20; //Script mem space
+    {
+        const a = 100; //Block mem space
+        {
+            const a = 200; //it has its own Block Mem space
+            console.log(a); //200
+        }
+        console.log(a); //100
+    }
+     console.log(a); //20
+    ```
+
+    ```js
+    const a = 20; //Script mem space
+    {
+        const a = 100; //Block mem space
+        {
+            console.log(a); //100
+        }
+    }
+    ```
+    
 
 
 
