@@ -46,11 +46,11 @@ What is a **Block**?
 What is **Shadowing**?
 
 * ```js
-    var a = 100;
+    var a = 100; //stored in Global Memory space
     {
-        var a = 10; // same name as global var
-        let b = 20;
-        const c = 30;
+        var a = 10; // same name as global var //stored in Global Memory space
+        let b = 20; //stored in Block Memory space
+        const c = 30; //stored in Block Memory space
         console.log(a); // 10
         console.log(b); // 20
         console.log(c); // 30 
