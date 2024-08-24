@@ -193,6 +193,9 @@
 
           showMessage('Hello, world!', 2000); // Display after 2 seconds
           ```
+   6. **Functions like once**
+   7. **maintaining state in async world**
+   8. **Iterators**
 
   These examples demonstrate the power and versatility of closures in
 JavaScript! 🚀
