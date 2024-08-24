@@ -1,4 +1,15 @@
-# Episode 10 : Closures  in JS
+# Episode 10 : Closures  in JS   
+
+    ```js
+    function x() {
+        var a = 7;
+        function y() {
+            console.log(a);
+        }
+        y(); //7
+    }
+    x(); 
+    ```
 
 * Function bundled along with it's lexical scope is **closure**.
 
