@@ -1,6 +1,6 @@
 # Episode 10 : Closures  in JS   
 
-    ```js
+```js
     function x() {
         var a = 7;
         function y() {
