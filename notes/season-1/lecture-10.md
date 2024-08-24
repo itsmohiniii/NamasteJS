@@ -48,11 +48,11 @@
             console.log(a);
         }
         a = 100;
-        return y;
+        return y; // function along with the reference to parent's variables is returned
     }
     var z = x();
     console.log(z);  // value of z is entire code of function y.
-    z(); //100
+    z(); //100 
     ```
 
 * Another Example
