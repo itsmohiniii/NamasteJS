@@ -9,8 +9,7 @@
         y(); //7
     }
     x(); 
-    ```
-
+```
 * Function bundled along with it's lexical scope is **closure**.
 
 * JavaScript has a lexcial scope environment. If a function needs to access a variable, it first goes to its local memory. When it does not find it there, it goes to the memory of its lexical parent. See Below code, Over here function **y** along with its lexical scope i.e. (function x) would be called a closure.
