@@ -8,7 +8,7 @@ setTimeout(function () {
 }, 1000) // first argument is callback function and second is timer.
 ```
 
-* JS is a synchronous and single threaded language. But due to callbacks, we can do async things in JS.
+* JS is a synchronous and single threaded language (i.e. JS can do only one thing at a time and in a specific order). But due to callbacks, we can do async things in JS.
 
 * ```js
   setTimeout(function () {
