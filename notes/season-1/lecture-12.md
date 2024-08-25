@@ -126,10 +126,11 @@ function counter() {
   }
 }
 var counter1 = counter(); //counter function has closure with count var. 
-counter1(); // increments counter
+counter1(); //1 // increments counter
+counter1(); //2
 
 var counter2 = counter();
-counter2(); // here counter2 is whole new copy of counter function and it wont impack the output of counter1
+counter2(); //1 // here counter2 is whole new copy of counter function and it wont impack the output of counter1
 
 *************************
 
