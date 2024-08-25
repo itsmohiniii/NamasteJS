@@ -66,6 +66,7 @@ console.log(calculate(radiusArr, area));
 console.log(calculate(radiusArr, circumference));
 // Over here calculate is HOF
 // Over here we have extracted logic into separate functions. This is the beauty of functional programming.
+// In functional programming, think all the logic into small reusable components which are functions.
 
 Polyfill of map
 // Over here calculate is nothing but polyfill of map function
