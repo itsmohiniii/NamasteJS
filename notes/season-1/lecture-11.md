@@ -83,6 +83,14 @@
             console.log("Namaste Javascript");
         }
         x();
+        // Output:
+        // Namaste Javascript
+        // 1
+        // 2
+        // 3
+        // 4
+        // 5
+        // Each number printed after 1sec delay each
         ```
  
 <hr>
