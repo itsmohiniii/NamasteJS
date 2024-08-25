@@ -97,6 +97,8 @@ var b = function(param1) {
   }  
 }
 console.log(b()); // prints " f xyz() {} "
+
+//All above behaves similarly for let and const also.
 ```
 <hr>
 
