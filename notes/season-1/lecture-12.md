@@ -91,7 +91,7 @@ outest()("Hello There")(); // 10 20 "Hello There"
 ### Q7: Advantage of Closure?
   * Module Design Pattern
   * Currying
-  * Memoize
+  * Higher order functions like Memoize, once etc.
   * Data hiding and encapsulation
   * setTimeouts etc.
 
