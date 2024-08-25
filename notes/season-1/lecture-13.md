@@ -24,7 +24,7 @@ b();
 The major difference between these two lies in **Hoisting**.
 ```js
 a(); // "Hello A"
-b(); // TypeError
+b(); // TypeError : b is not a function
 function a() {
   console.log("Hello A");
 }
