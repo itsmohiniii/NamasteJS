@@ -14,14 +14,14 @@ setTimeout(function () {
   setTimeout(function () {
     console.log("timer");
   }, 5000);
-  function x(y) {
+  function x(y) { // y is a callback function
     console.log("x");
     y();
   }
   x(function y() {
     console.log("y");
   });
-  // x y timer
+  // x y timer (timer printed after 5s)
   ```
   * In the call stack, first x and y are present. After code execution, they go away and stack is empty. Then after 5 seconds (from beginning) anonymous suddenly appear up in stack ie. setTimeout
   * All 3 functions are executed through call stack. If any operation blocks the call stack, its called blocking the main thread.
