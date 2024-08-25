@@ -40,6 +40,7 @@
     // 6
     // 6
     // 6
+    // Each 6 printed after 1sec delay each
     ```
     * Reason?
         * This happens because of closures. When setTimeout stores the function somewhere and attaches timer to it, the function remembers its reference to i, **not value of i**. All 5 copies of function point to same reference of i. JS stores these 5 functions, prints string and then comes back to the functions. By then the timer has run fully. And due to looping, the i value became 6. And when the callback fun runs the variable i = 6. So same 6 is printed in each log
