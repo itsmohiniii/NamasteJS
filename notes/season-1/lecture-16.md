@@ -26,7 +26,8 @@ For eg, Google's V8 JS engine is written in C++.
 
 * Companies use different JS engines and each try to make theirs the best.
     * v8 of Google has Interpreter called Ignition, a compiler called Turbo Fan and garbage collector called Orinoco
-    * v8 architecture:
+    * Read blogs from https://v8.dev/
+    * v8 architecture:     
     ![JS Engine Demo](/assets/jsengine.png)
 
 
