@@ -68,7 +68,8 @@ b(arg1, arg2); // arguments - values passed inside function call
 
 ### Q: What is First Class Function aka First Class Citizens?
 We can pass functions inside a function as arguments and 
-/or return a function(HOF). These ability are altogether known as First class function. It is programming concept available in some other languages too.
+/or return a function(HOF). These ability are altogether known as First class function. It is programming concept available in some other languages too.   
+The ability of functions to be used as values is known as First-class functions.   
 ```js
 var b = function(param1) {
   console.log(param1); // prints " f() {} "
