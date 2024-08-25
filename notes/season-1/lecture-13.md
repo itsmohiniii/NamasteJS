@@ -77,7 +77,7 @@ b(function(){});
 
 // Other way of doing the same thing:
 var b = function(param1) {
-  console.log(param1);
+  console.log(param1); // prints " f xyz() {} "
 }
 function xyz(){
 }
