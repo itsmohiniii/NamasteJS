@@ -17,7 +17,7 @@ Assigning a function to a variable. Function acts like a value.
 var b = function() {
   console.log("Hello");
 }
-b();
+b(); // Hello
 ```
 
 ### Q: Difference between function statement and expression
