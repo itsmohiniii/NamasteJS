@@ -64,7 +64,7 @@ const calculate = function(radiusArr, operation) {
 }
 console.log(calculate(radiusArr, area));
 console.log(calculate(radiusArr, circumference));
-// Over here calculate is HOF
+// Over here calculate is HOF, area and circumference are callback functions.
 // Over here we have extracted logic into separate functions. This is the beauty of functional programming.
 // In functional programming, think all the logic into small reusable components which are functions.
 
