@@ -99,6 +99,7 @@ var b = function(param1) {
 console.log(b()); // prints " f xyz() {} "
 
 //All above behaves similarly for let and const also.
+//let, const and arrow functions - introduced in ES6 (EcmaScript 2015)
 ```
 <hr>
 
