@@ -12,6 +12,7 @@
 https://en.wikipedia.org/wiki/List_of_ECMAScript_engines
 
 * Javascript Engine is not a machine. Its software written in low level languages (eg. C++) that takes in hi-level code in JS and spits out low level machine code.
+For eg, Google's V8 JS engine is written in C++.
 
 * Code inside Javascript Engine passes through 3 steps : **Parsing**, **Compilation** and **Execution**
     1. **Parsing** - Code is broken down into tokens. In "let a = 7" -> let, a, =, 7 are all tokens. Also we have a syntax parser that takes code and converts it into an AST (Abstract Syntax Tree) which is a JSON with all key values like type, start, end, body etc (looks like package.json but for a line of code in JS. Kinda unimportant)(Check out astexplorer.net -> converts line of code into AST).
