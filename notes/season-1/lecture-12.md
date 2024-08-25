@@ -190,7 +190,8 @@ function a() {
 var y = a(); // y is a copy of b()
 y();
 ```
-Closure of a only has x (not z )
+Closure of a only stores x (not z)   
+   
 ![image](https://github.com/user-attachments/assets/1c77756c-32f0-4a07-a565-ea9ac28d7a2f)
 
 
