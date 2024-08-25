@@ -88,7 +88,14 @@ var b = function(param1) {
   return function() {
   }  
 }
-console.log(b()); //we log the entire fun within b. 
+console.log(b()); // prints " f() {} "
+
+//we can also return a named function
+var b = function(param1) {
+  return function xyz() {
+  }  
+}
+console.log(b()); // prints " f xyz() {} "
 ```
 <hr>
 
