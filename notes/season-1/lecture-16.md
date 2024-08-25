@@ -1,6 +1,6 @@
 # Episode 16 : JS Engine Exposed, Google's V8 Architecture
 
-* JS runs literally everywhere from smart watch to robots to browsers because of Javascript Runtime Environment (JRE).
+* JS runs literally everywhere from smart watch to robots to browsers to servers to light bulbs because of Javascript Runtime Environment (JRE).
 
 * JRE is like a big container which has everything which are required to run Javascript code.
 
