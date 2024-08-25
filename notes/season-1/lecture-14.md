@@ -64,7 +64,7 @@ setTimeout(function () {
             console.log("Button clicked", ++count);
         });
         ```
-    - Use closures for data abstraction
+    - Use closures for data abstraction and data hiding
         ```js
         function attachEventList() {  //creating new function for closure
             let count = 0;
