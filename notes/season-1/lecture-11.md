@@ -46,6 +46,26 @@
         * This happens because of closures. When setTimeout stores the function somewhere and attaches timer to it, the function remembers its reference to i, **not value of i**. All 5 copies of function point to same reference of i. JS stores these 5 functions, prints string and then comes back to the functions. By then the timer has run fully. And due to looping, the i value became 6. And when the callback fun runs the variable i = 6. So same 6 is printed in each log
         
         * To avoid this, we can use **let** instead of **var** as let has Block scope. For each iteration, the i is a new variable altogether(new copy of i). Everytime setTimeout is run, the inside function forms closure with new variable i
+     
+      ```js
+        function x() {
+        for(let i = 1; i<=5; i++){
+            setTimeout(function() {
+            console.log(i);
+            }, i*1000);
+            }
+            console.log("Namaste Javascript");
+        }
+        x();
+        // Output:
+        // Namaste Javascript
+        // 1
+        // 2
+        // 3
+        // 4
+        // 5
+        // Each number printed after 1sec delay each
+        ```
 
     * But what if interviewer ask us to implement using **var**?
  
