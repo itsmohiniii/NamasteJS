@@ -51,6 +51,7 @@ Same as Function Expression but function has a name instead of being anonymous.
 ```js
 var b = function xyz() {
   console.log("b called");
+  console.log(xyz); //will print entire code for xyz function (it is accessible in its local scope)
 }
 b(); // "b called"
 xyz(); // Throws ReferenceError:xyz is not defined.
