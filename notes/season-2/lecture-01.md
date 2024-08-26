@@ -86,8 +86,8 @@ api.createOrder(cart, function () {
 // 💡 Callback Hell
 ```
 
-When we have a large codebase and multiple apis and have dependency on each other, then we fall into callback hell.
-These codes are tough to maintain.
+When we have a large codebase and multiple apis and have dependency on each other, then we fall into callback hell. The code starts to grow horizontally instead of vertically.
+These codes are tough to read and maintain.
 These callback hell structure is also known as **Pyramid of Doom**.
 
 Till this point we are comfortable with concept of callback hell but now lets discuss about `Inversion of Control`. It is very important to understand in order to get comfortable around the concept of promise.
