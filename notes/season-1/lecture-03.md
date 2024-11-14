@@ -28,7 +28,7 @@ function getName(){
 * Now let's observe a different example and try to understand the output.
 ```js
 getName(); // Uncaught TypeError: getName is not a function
-console.log(getName);
+console.log(getName); //undefined
 var getName = function () {
     console.log("Namaste JavaScript");
 }
