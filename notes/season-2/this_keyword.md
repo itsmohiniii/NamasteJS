@@ -44,7 +44,7 @@ const a = ()=> {
 a()
 
 'use strict'
-    const a = ()=> {
+const a = ()=> {
     console.log(this) //window object
 }
 a()
