@@ -118,6 +118,18 @@ const obj2 = {
     }
 }
 obj2.x();
+
+const obj2 = {
+    a: 10,
+    x: () => {
+        const y = () => {
+            console.log(this);
+            // Above the value of `this` will be window object as function y's enclosing lexical context is function `x` and inside arrow function x, this refers to window object
+        };
+        y();
+    }
+}
+obj2.x();
 ```
 
 ## `this` inside DOM
