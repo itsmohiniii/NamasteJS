@@ -12,6 +12,12 @@ console.log(this); // refers to global object i.e. window in case of browser
 // 💡 global object differs based on runtime environment,
 ```
 
+```js
+'use strict'
+console.log(this); // refers to global object i.e. window in case of browser
+// 💡 global object differs based on runtime environment,
+```
+
 ## `this` inside a function
 
 ```js
@@ -35,7 +41,15 @@ x();
 `this` keyword value depends on how the `function` is called. For eg:  
 In strict mode:  
 ```js
+'use strict'
 x(); // undefined  
+window.x(); // global window object
+```
+
+In non-strict mode:
+```js
+'use strict'
+x(); // global window object  
 window.x(); // global window object
 ```
 
