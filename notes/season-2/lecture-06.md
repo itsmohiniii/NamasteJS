@@ -8,13 +8,13 @@
 Anything defined globally is said to be in a global space.
 
 ```js
-console.log(this); // refers to global object i.e. window in case of browser
+console.log(this); // refers to global object i.e. window in case of browser (in non-strict mode)
 // 💡 global object differs based on runtime environment,
 ```
 
 ```js
 'use strict'
-console.log(this); // refers to global object i.e. window in case of browser
+console.log(this); // refers to global object i.e. window in case of browser (in strict mode)
 // 💡 global object differs based on runtime environment,
 ```
 
@@ -38,7 +38,8 @@ x();
 
 💡 So to summarize, the value of `this` keyword inside function is `undefined`, but because of `this substitution` in non-strict mode `this` keyword refers to `globalWindowObject` and in strict mode it will still be `undefined`
 
-`this` keyword value depends on how the `function` is called. For eg:  
+`this` keyword value depends on how the `function` is called. For eg: 
+
 In strict mode:  
 ```js
 'use strict'
@@ -48,7 +49,6 @@ window.x(); // global window object
 
 In non-strict mode:
 ```js
-'use strict'
 x(); // global window object  
 window.x(); // global window object
 ```
