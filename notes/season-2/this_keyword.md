@@ -11,7 +11,7 @@ const video = {
 
 video.showTags();
 
-//window a
-//window b
-//window c
+//window 'a'
+//window 'b'
+//window 'c'
 ```
