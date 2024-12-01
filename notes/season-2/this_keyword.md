@@ -36,3 +36,16 @@ video.showTags();
 //'javascript' 'b'
 //'javascript' 'c'
 ```
+
+```js
+const a = ()=> {
+    console.log(this) //window object
+}
+a()
+
+'use strict'
+    const a = ()=> {
+    console.log(this) //window object
+}
+a()
+```
