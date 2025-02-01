@@ -144,15 +144,24 @@
       -   Example: Implement a memoized Fibonacci function.
 
           ``` js
-          function fibonacci(n, memo = {}) {
-            if (n in memo) return memo[n];
-            if (n <= 1) return n;
+          function memoizedFibonacci() {
+              const memo = {};
 
-            memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo);
-            return memo[n];
+              function fibonacci(n) {
+                if (n in memo) return memo[n];
+                if (n <= 1) return n;
+    
+                memo[n] = fibonacci(n - 1) + fibonacci(n - 2);
+                return memo[n];
+              }
+
+              return fibonacci;
           }
 
-          console.log(fibonacci(10)); // 55
+          const fib = memoizedFibonacci();
+
+          console.log(fib(10)); // 55
+          console.log(fib(20)); // 6765
           ```
   4.  **Data Hiding and Encapsulation**:
       -   Encapsulation hides the internal details of an object and
